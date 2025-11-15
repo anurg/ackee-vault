@@ -21,7 +21,7 @@ import {
 } from '../instructions';
 
 export const ACKEEVAULT_PROGRAM_ADDRESS =
-  '9d42MkYCoktjzymM9waPNjambtozQwui3demWNdcCEBt' as Address<'9d42MkYCoktjzymM9waPNjambtozQwui3demWNdcCEBt'>;
+  '8gjd6dv9RAfYuvEqeDzF4EM72SoKaFjbxeYATyNuYkth' as Address<'8gjd6dv9RAfYuvEqeDzF4EM72SoKaFjbxeYATyNuYkth'>;
 
 export enum AckeevaultAccount {
   VaultState,
@@ -108,7 +108,7 @@ export function identifyAckeevaultInstruction(
 }
 
 export type ParsedAckeevaultInstruction<
-  TProgram extends string = '9d42MkYCoktjzymM9waPNjambtozQwui3demWNdcCEBt',
+  TProgram extends string = '8gjd6dv9RAfYuvEqeDzF4EM72SoKaFjbxeYATyNuYkth',
 > =
   | ({
       instructionType: AckeevaultInstruction.Close;

@@ -9,7 +9,7 @@ skip-lint = false
 ackeevault = "8gjd6dv9RAfYuvEqeDzF4EM72SoKaFjbxeYATyNuYkth"
 
 [programs.localnet]
-ackeevault = "42VY2mEV4gUz31qPaT5oAHFojXQE9tWAEwfdAf6w5rxL"
+ackeevault = "8gjd6dv9RAfYuvEqeDzF4EM72SoKaFjbxeYATyNuYkth"
 
 [registry]
 url = "https://api.apr.dev"
